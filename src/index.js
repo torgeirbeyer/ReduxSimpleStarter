@@ -1,3 +1,4 @@
+//ALWAYS ONLY ONE COMPONENT PER FILE
 import React from 'react';
 import ReactDOM from 'react-dom';
 
