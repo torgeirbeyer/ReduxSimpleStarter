@@ -2,6 +2,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+//API key for youtube
+const API_KEY = 'AIzaSyAgjYJ9Rnu89KGqjihmu_IOcKUdAEoQ4O4';
+
+
 //create new component
 // should produce some HTML
 
