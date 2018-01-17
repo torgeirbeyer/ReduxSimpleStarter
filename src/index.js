@@ -2,6 +2,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import SearchBar from './components/search_bar';
+
 //API key for youtube
 const API_KEY = 'AIzaSyAgjYJ9Rnu89KGqjihmu_IOcKUdAEoQ4O4';
 
@@ -12,7 +14,11 @@ const API_KEY = 'AIzaSyAgjYJ9Rnu89KGqjihmu_IOcKUdAEoQ4O4';
 //instaciate the component 
 const App = () => {
   //Writing JSX that gets traspiled to vanillaJS by babel
-  return <div>Hi there!</div>;
+  return (
+    <div>
+      <SearchBar />
+    </div>
+  ); // using parenthesis is optional, but the first div must be placed at the first line
 }
 
 
