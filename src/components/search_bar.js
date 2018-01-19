@@ -18,7 +18,6 @@ class SearchBar extends Component {
   }
   //syntax for defining methods
   render() {
-    // we always manipulate the state with this.setState function
     return (
       <div className='search-bar'>
         <input 
@@ -27,7 +26,7 @@ class SearchBar extends Component {
       </div>
     ); 
   }
-  
+  // we always manipulate the state with this.setState function
   onInputChange(term) {
     this.setState({term});
     this.props.onSearchTermChange(term);
